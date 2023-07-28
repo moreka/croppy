@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "croppy"
+version = "0.1.0"
+description = ""
+authors = ["Mohammad Reza Karimi <mkarimi@inf.ethz.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pypdf = "^3.13.0"
+pysimplegui = "^4.60.5"
+pillow = "^10.0.0"
+tqdm = "^4.65.0"
+absl-py = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
